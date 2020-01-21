@@ -21,8 +21,10 @@ class MyScene : public Scene
         // Called once every frame. 
         virtual void update()
         {
+		clearBoard();
             // Your code here
-
+		board[y][x] ='x';
+		x++;
 
 
 
