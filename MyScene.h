@@ -7,6 +7,8 @@
 class MyScene : public Scene
 {
     protected:
+	int x=0;
+	int y=0;
 
         // Called once when the scene begins.
         virtual void init()
